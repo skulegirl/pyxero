@@ -9,3 +9,5 @@ rules:
     upstream: freakboy3742:master
     mergeMethod: hardreset
     mergeUnstable: true
+    conflictReviewers:
+      - skulegirl
