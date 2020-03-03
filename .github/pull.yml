@@ -8,3 +8,4 @@ rules:
   - base: master
     upstream: freakboy3742:master
     mergeMethod: hardreset
+    mergeUnstable: true
