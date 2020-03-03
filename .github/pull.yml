@@ -1,0 +1,10 @@
+version: "1"
+rules:
+  - base: bdw-dev
+    upstream: master
+    mergeMethod: merge
+    assignees:
+      - skulegirl
+  - base: master
+    upstream: freakboy3742:master
+    mergeMethod: hardreset
